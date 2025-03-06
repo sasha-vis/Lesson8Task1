@@ -1,0 +1,14 @@
+.info {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 60px;
+}
+
+.winColor {
+	color: green;
+}
+
+.drawColor {
+	color: orange;
+}

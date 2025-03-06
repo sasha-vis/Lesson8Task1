@@ -1,0 +1,66 @@
+.field {
+	display: grid;
+	width: 150px;
+	grid-template-columns: repeat(3, 1fr);
+
+	position: relative;
+}
+
+.line {
+	position: absolute;
+	background-color: red;
+	width: 100%;
+	height: 4px;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+}
+
+.line-0 {
+	top: calc(12.5% + 4px);
+	left: 0;
+}
+
+.line-1 {
+	top: 50%;
+	left: 0;
+}
+
+.line-2 {
+	top: calc(87.5% - 4px);
+	left: 0;
+}
+
+.line-3 {
+	width: 4px;
+	height: 100%;
+	left: calc(12.5% + 3px);
+}
+
+.line-4 {
+	width: 4px;
+	height: 100%;
+	left: calc(50% - 3px);
+}
+
+.line-5 {
+	width: 4px;
+	height: 100%;
+	left: calc(87.5% - 8px);
+}
+
+.line-6 {
+	width: calc(100% + 50px);
+	height: 4px;
+	top: calc(50% - 2px);
+	left: -25px;
+	transform: rotate(45deg);
+}
+
+.line-7 {
+	width: calc(100% + 50px);
+	height: 4px;
+	top: calc(50% - 2px);
+	left: -25px;
+	transform: rotate(-45deg);
+}
